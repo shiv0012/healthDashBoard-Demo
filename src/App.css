@@ -1,0 +1,172 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: calc(33.33% - 50px);
+  margin-bottom: 20px;
+  border: 1px solid gray;
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: calc(50% - 20px);
+  }
+}
+
+.container {
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-top: 0;
+  color: #333333;
+}
+
+p {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+  color: #555555;
+}
+
+.btn {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+.btn:active {
+  background-color: #398038;
+}
+
+.footer {
+  background-color: #333333;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #ffffff;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.login-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  color: #555555;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #dddddd;
+}
+
+.form-group .error-message {
+  color: #ff0000;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.header {
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #dddddd;
+  background-color: #333333;
+  color: #555555;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.login-form {
+  background-size: cover;
+  background-position: center;
+  color: red;
+}
+
+.modal-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  position: relative;
+}
+
+.modal p {
+  margin-bottom: 20px;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.close:hover {
+  color: red;
+}
